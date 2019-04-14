@@ -1,7 +1,7 @@
 # Drum machine
 ### About the project
 
-it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a drum machine that with be triggered
+it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a drum machine that can be triggered
 either by mouse or keyboard.
 
 ### Tools used
