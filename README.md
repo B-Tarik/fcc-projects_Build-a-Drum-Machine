@@ -1,25 +1,30 @@
 # Drum machine
-## About the project
+### About the project
 
 it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a drum machine that with be triggered
 either by mouse or keyboard.
 
-## Tools used
+### Tools used
 
-###Design
-Illustrator: to make the svg
+#### Design
 
-###Front-end
-React: to render the buttons
-GSAP: to animate the svg
+**Illustrator** to make the svg
 
-##Screenshot
+#### Front-end
+
+**React** to render the buttons
+**GSAP** to animate the svg
+
+### Screenshot
+
 ![Screenshot](Screenshot.gif "Screenshot")
 
-##Link
+### Link
+
 https://codepen.io/B-Tarik/full/WWZONw/
 
-##User stories
+### User stories
+
 1. I should be able to see an outer container with a corresponding ```id="drum-machine"``` that contains all other elements.
 2. Within ```#drum-machine``` I can see an element with a corresponding ```id="display"```.
 3. Within ```#drum-machine``` I can see 9 clickable drum pad elements, each with a class name of ```drum-pad```, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.
