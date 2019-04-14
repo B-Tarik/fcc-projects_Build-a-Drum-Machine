@@ -1,0 +1,123 @@
+$btnColor: #646464;
+
+.controls-container {
+  display: none;
+}
+
+#Drums-Btns {
+  position: absolute;
+  transition: all 0.4s;
+}
+
+#Tom-Right-Drum:hover,
+#Crash-Cymbal:hover,
+#Floor-Tom:hover,
+#Hi-Hats:hover,
+#Hi-Hat-Stand:hover,
+#Tom-Left-Drum:hover,
+#Snare:hover,
+#Kick:hover,
+#Ride-Cymbal:hover {
+  cursor: pointer;
+}
+
+.drum-pad {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: $btnColor;
+  color: white;
+  
+  &:hover {
+    background-color: lighten($btnColor, 5);
+  }
+  &:active {
+    background-color: darken($btnColor, 10);
+  }
+}
+.active {
+  background-color: darken($btnColor, 10);
+}
+
+#Tom-Right-Drum-Btn,
+#Crash-Cymbal-Btn,
+#Floor-Tom-Btn,
+#Hi-Hats-Btn,
+#Hi-Hat-Stand-Btn,
+#Tom-Left-Drum-Btn,
+#Snare-Btn,
+#Kick-Btn,
+#Ride-Cymbal-Btn {
+  position: relative;
+}
+
+#Tom-Right-Drum-Btn {
+  top: -471px;
+  left: -218px;
+}
+
+#Crash-Cymbal-Btn {
+  top: -264px;
+  left: -540px;
+}
+
+#Floor-Tom-Btn {
+  top: -237px;
+  left: -510px;
+}
+
+#Hi-Hats-Btn {
+  top: -541px;
+  left: -83px;
+}
+
+#Hi-Hat-Stand-Btn {
+  top: -168px;
+  left: -110px;
+}
+
+#Tom-Left-Drum-Btn {
+  top: -333px;
+  left: -407px;
+}
+
+#Snare-Btn {
+  top: -375px;
+  left: -243px;
+}
+
+#Kick-Btn {
+  top: -306px;
+  left: -376px;
+}
+
+#Ride-Cymbal-Btn {
+  top: -402px;
+  left: -314px;
+}
+
+.keyboard {
+  position: absolute;
+}
+
+.keyboard i {
+  position: relative;
+  top: -286px;
+  left: 82px;
+}
+
+.fa-keyboard {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  
+  &:active {
+    color: darken(white, 10);
+  }
+}
+
+.hide {
+  visibility : hidden;
+  opacity: 0;
+}
