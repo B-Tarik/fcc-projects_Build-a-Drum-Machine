@@ -6,14 +6,9 @@ either by mouse or keyboard.
 
 ### Tools used
 
-#### Design
+**Design:** Illustrator
 
-**Illustrator** to make the svg
-
-#### Front-end
-
-**React** to render the buttons
-**GSAP** to animate the svg
+**Front-end:** React, GSAP
 
 ### Screenshot
 
