@@ -12,7 +12,7 @@ either by mouse or keyboard.
 
 ### Screenshot
 
-![Screenshot](Screenshot.gif "Screenshot")
+![Screenshot](Screenshot_01.gif "Screenshot")
 
 ### Link
 
