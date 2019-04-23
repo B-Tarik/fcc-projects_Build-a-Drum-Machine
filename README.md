@@ -2,7 +2,11 @@
 ### About the project
 
 it's a freecodecamp project in the "Front End Libraries Projects" module, you have to build a drum machine that can be triggered
-either by mouse or keyboard.
+either by mouse or keyboard.  
+
+bonus*: 
+- created an SVG
+- SVG animation
 
 ### Tools used
 
@@ -13,6 +17,7 @@ either by mouse or keyboard.
 ### Screenshot
 
 ![Screenshot](Screenshot_01.gif "Screenshot")
+![Screenshot](Screenshot_02.gif "Screenshot")
 
 ### Link
 
